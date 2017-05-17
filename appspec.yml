@@ -2,6 +2,6 @@ version: 0.0
 os: linux
 hooks:
   AfterInstall:
-    - location: aws_scripts/set_env
+    - location: aws_scripts/deploy-php
       timeout: 300
       runas: root
