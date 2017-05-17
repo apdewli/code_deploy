@@ -1,0 +1,2 @@
+#!/bin/bash
+cat /etc/httpd/conf/httpd.conf > /var/www/html/index.html
